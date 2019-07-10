@@ -2,7 +2,7 @@
 
 Carry hill elementary school website
 
-Used tecnologies:
+Used technologies:
   - HTML5
   - CSS
   - JavaScript
