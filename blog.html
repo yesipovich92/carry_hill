@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Libre+Baskerville" rel="stylesheet">
+    <link rel="stylesheet" href="css/blog_css.css" media="all">
+    <link rel="stylesheet" href="css/common_css.css" media="all">
+    <link rel="stylesheet" href="css/little_header_css.css" media="all">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1
+    BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIaSURBVGhD7Zi9SgNBFIVXBMHGyjJFEn9AH0BbX8XG97BREVNYbIJ20SiS1mhjJaJY2Gn8BS0
+    kVlFwV0NIouPccIMaT+JNBGcX5sAHuzszJ9+GnS3WsbGxsQlmxrOqL+b6i7GkV4glfWWG+m8vkAtryRN1/fmfhWYgF9aSJ+Z6D6jMDF6BteTBReZgLXl
+    QiUlYSx5UYhLWkgeVSJlMv6jMWUVdPdXqbOQrairzCudKYS15UIkEks8Xa+ree/vGub42ocfQGgmsJQ8qkUD/fLN8g/XTClwjgbXkQSUSrvUjg+SJq8c
+    aXCOBteRBJRJCfwO0YZE8kQ7DI0RvG9qwzfK0sUOxiQl6E9GGpUfmUrOmj/8iT7CWPKjEJKwlDyoxCWvJg0p+Y2z1RU3nSipxXFZbejPv3FTr0PGSvkZ
+    jNAet/Q3WkgeVtCKe8tXMbkltX1fU3m21LTSH5tIa1NUK1pIHlSCGtMj8URnKtmPusFxfizoRrCUPKkHMHnQu34DWok4Ea8mDShBIrBNQJ4K15EElCCT
+    VCagTwVryoBKTsJY8qMQkrCUPKjEJa8mDSswR8s8q3X3YAkX/j1cg+a4+LeJCxvXv4qnnEZ4azEBxwvUvhpdfIzwtuEHy0aR3MrriDfKUYAfcwP7wcnG
+    Ah4Ofr/LRpJ+LJN77eSgc+ZT3Nrt6C5gO30DKyapevhSuaPkFR6kePrWxsbGxAXGcD7EjYB1c2ntlAAAAAElFTkSuQmCC">
+</head>
+<body>
+<header>
+    <div class="container header__container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="images/main_logo.png" alt="" title="home page"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" title="about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdownMenuLink" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="gallery">
+                            Gallery
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="gallery.html#2019" title="2019">2019</a>
+                            <a class="dropdown-item" href="gallery.html#2018" title="2018">2018</a>
+                            <a class="dropdown-item" href="gallery.html#video" title="video">Video</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="blog.html" title="blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="documents/table.pdf" target="_blank" title="timetable" onclick=question1()>Timetable</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" title="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <img class="airplane rotate" src="images/paper-airplane.png" alt="">
+        <img class="star1 rotate" src="images/star1.png" alt="">
+        <img class="star2 rotate" src="images/star1.png" alt="">
+        <img class="star3 rotate" src="images/star2.png" alt="">
+    </div>
+</header>
+<div class="main">
+    <div class="container main__container_headline">
+        <div class="row">
+            <div class="col-2">
+                <img class="rotate" src="images/pen.png" alt="">
+            </div>
+            <div class="col">
+                <h2>Blog</h2>
+                <hr class="bolder">
+                <a href="index.html" title="home page">Home</a>
+                <span>/</span>
+                <a href="blog.html" title="blog">Blog</a>
+                <span>/</span>
+                <span class="orange">Blog Post</span>
+            </div>
+        </div>
+    </div>
+    <div class="container main__container_content">
+        <div class="row">
+            <div class="col-8 main__article">
+                <h3>We care about kids</h3>
+                <h6 class="top-bottom-dotted">Are you looking for people who have a lot common with you?</h6>
+                <time datetime="2019-05-25">2019-05-25</time>
+                <span class="author">By Alise D. / <img src="data:image/png;base64,iVBORw0KG
+                goAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAA
+                ACNSURBVDhPYxg0oBWIfwLxfxwYJNcCxDgBSIEghIkVgORAanACkC2EAF41pBiA1UukugDDS6QaAAIofHICEcUA9GhMAOKvSHyQXBMQI
+                wMUA5ABSOIyEGuBebgBTgPmA7EYEAuAedgBwXSRC8TfgRjmBZB3QN6C8bF5CS8AeQfkLZzOJgZwATHIe9QEDAwAlUMzgkmppYgAAAAA
+                SUVORK5CYII=" alt=""> comments</span>
+                <img class="all-dotted" src="images/blog.jpg">
+                <p> Hello and a warm welcome to our Junior School. We are a large,
+                    inclusive and welcoming school with 400 pupils aged 7&ndash;11 years.
+                    Our overriding ethos is to provide excellent education for all pupils regardless of their
+                    starting points with high expectations for all within a strong values based culture.</p>
+                <div class="grey">
+                    <img src="images/inverted_commas.png" alt="">
+                    Children enjoy taking part in the wide range of clubs that we have here at our school.
+                    We have exciting sports clubs such as Badminton, Cross Country, Football, Gymnastics, Netball,
+                    and Rugby.
+                    <img src="images/inverted_commas.png" alt="">
+                </div>
+                <p>Our overriding ethos is to provide excellent education for all pupils regardless of their
+                    starting points with high expectations for all within a strong values based culture.
+                    Our overriding ethos is to provide excellent education for all pupils regardless of their
+                    starting points with high expectations for all within a strong values based culture.
+                </p>
+                <h6 class="top-bottom-dotted">Are you looking for people who have a lot common with you?</h6>
+                <p>We achieve high standards and are constantly striving to improve our teaching and learning. We offer
+                    an engaging, creative and challenging curriculum&ndash;our aim is to engage and inspire children in their
+                    learning using a wide range of approaches. We also offer a variety of other extra&ndash;curricular
+                    opportunities; including outdoor and adventurous residential activities in every year group.
+                    The majority of our children begin their school life at our infant school. Our aim is to continue
+                    this excellent start and to build upon children&rsquo;s skills and knowledge, fully preparing them for
+                    the challenges of secondary school and later life.
+                </p>
+                <h5>Are you looking for people who have a lot common with you?</h5>
+                <p> We also offer a variety of other extra&ndash;curricular
+                    opportunities; including outdoor and adventurous residential activities in every year group.
+                    The majority of our children begin their school life at our infant school. Our aim is to continue
+                    this excellent start and to build upon children&rsquo;s skills and knowledge, fully preparing them for
+                    the challenges of secondary school and later life.
+                </p>
+                <ul>
+                    <li>Welcoming school</li>
+                    <li>Excellent start</li>
+                    <li>Skills and knowledge</li>
+                    <li>Excellent education</li>
+                </ul>
+                <div class="comments">
+                    <h4>Comments</h4>
+                    <hr class="bolder">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img class="alien rotate" src="images/alien.png">
+                            </div>
+                            <div class="col-sm">
+                                <h4>Mark</h4>
+                                <a class="float" href="#">reply<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA
+                                BAAAAAQCAYAAAAf8/9hA
+                                AAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACHSURBVDhPYxh0QAqId
+                                wIxD5hHIpAG4ptAXALmkQgo0gwCW4D4PwH8B4jvAHEjEHMAMQogxgVsQGwGxNuB+DAQk2UICDACMciQWjAPDRAbC
+                                yCX3IIwyQO8QPwbwiQPmALxfgiTPLAZiDMgTOIBLBZAUb4JiEGBSRRATgegWCoAYhYgHhSAgQEACogfcI6v9NQAA
+                                AAASUVORK5CYII="></a>
+                                <hr class="bolder">
+                                <time datetime="2019-05-26T08:00+01:00">2019-05-26 / 2 day ago</time>
+                                <p>The majority of our children begin their school life at our infant school.
+                                    Our aim is to continue this excellent start and to build upon children&rsquo;s skills and
+                                    knowledge, fully preparing them for the challenges of secondary school and later life.
+                                </p>
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <img class="little-alien rotate" src="images/alien.png">
+                                    </div>
+                                    <div class="col-sm">
+                                        <h4>Michael</h4>
+                                        <a class="float" href="#">reply<img src="data:image/png;base64,iVBORw0KGgoAAAANS
+                                        UhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAD
+                                        sMAAA7DAcdvqGQAAACHSURBVDhPYxh0QAqIdwIxD5hHIpAG4ptAXALmkQgo0gwCW4D4PwH8B4jvAHEjE
+                                        HMAMQogxgVsQGwGxNuB+DAQk2UICDACMciQWjAPDRAbCyCX3IIwyQO8QPwbwiQPmALxfgiTPLAZiDMgT
+                                        OIBLBZAUb4JiEGBSRRATgegWCoAYhYgHhSAgQEACogfcI6v9NQAAAAASUVORK5CYII=">
+                                        </a>
+                                        <hr class="bolder">
+                                        <time datetime="2019-05-27T08:00+01:00">2019-05-27 / 1 day ago</time>
+                                        <p>We also offer a variety of other extra&ndash;curricular opportunities; including
+                                            outdoor and adventurous residential activities in every year group.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="leave-comment">
+                    <h5>Leave comment</h5>
+                    <hr class="bolder">
+                    <form name="send" method="post" enctype="multipart/form-data" action="http://fe.it-academy.by/TestForm.php">
+                        <div class="form-row passport-data">
+                            <div class="form-group col-md-4">
+                                <input type="text" name="first" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" name="second" class="form-control" placeholder="Last name">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" name="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="input-group textarea">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Your message</span>
+                            </div>
+                            <textarea class="form-control" name="question" aria-label="With textarea"></textarea>
+                        </div>
+                        <button type="submit" onclick="complete()">Submit a message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col side">
+                <div class="indent">
+                    <h4>About school</h4>
+                    <p>We are a large, inclusive and welcoming school with 400 pupils aged 7&ndash;11 years. Our overriding
+                        ethos is to provide excellent education for all pupils regardless of their starting points with
+                        high expectations for all within a strong values based culture.</p>
+                </div>
+                <div class="indent">
+                    <h4>Archives</h4>
+                    <a href="blog.html" target="_blank" title="january 2019">January 2019</a>
+                    <hr class="bolder">
+                    <a href="blog.html" target="_blank" title="february 2019">February 2019</a>
+                    <hr class="bolder">
+                    <a href="blog.html" target="_blank" title="march 2019">March 2019</a>
+                    <hr class="bolder">
+                    <a href="blog.html" target="_blank" title="april 2019">April 2019</a>
+                    <hr class="bolder">
+                </div>
+                <div class="indent">
+                    <h4>Categories</h4>
+                    <a href="about.html" target="_blank" title="education">Education</a>
+                    <hr class="bolder">
+                    <a href="about.html" target="_blank" title="school">School</a>
+                    <hr class="bolder">
+                    <a href="about.html" target="_blank" title="kids">Kids</a>
+                    <hr class="bolder">
+                    <a href="about.html" target="_blank" title="teachers">Teachers</a>
+                    <hr class="bolder">
+                </div>
+                <div class="container social-net">
+                    <div class="row social-net">
+                        <div class="col">
+                            <a href="https://twitter.com/" target="_blank" title="twitter">
+                                <img class="net rotate" src="images/Twitter%20round.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://facebook.com/" target="_blank" title="facebook">
+                                <img class="net rotate" src="images/Facebook%20Round.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://google.com/" target="_blank" title="google">
+                                <img class="net rotate" src="images/Google%20plus%20round%20new.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row social-net">
+                        <div class="col">
+                            <a href="https://instagram.com/" target="_blank" title="instagram">
+                                <img class="net rotate" src="images/Instagram%20round%20social%20media%20icon%20free.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://youtube.com/" target="_blank" title="youtube">
+                                <img class="net rotate" src="images/Youtube%20round.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container footer__container_content">
+        <div class="row">
+            <div class="col newsletter">
+                <h5>Newsletter</h5>
+                <p>You can subscribe on our news</p>
+                <form action="http://fe.it-academy.by/TestForm.php" method=get>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control form-control-sm" id="colFormLabelSm"
+                                   placeholder="your email">
+                        </div>
+                    </div>
+                    <button type="submit">Subscribe now</button>
+                </form>
+            </div>
+            <div class="col blog-posts">
+                <h5>Recent blog posts</h5>
+                <h6 class="top-bottom-dotted">Are you looking for people?</h6>
+                <p>
+                    As a values driven school, we encourage the children to reflect on their role in the local
+                    community and the wider world and to discover that together we make a difference.
+                </p>
+                <time datetime="2019-05-07">2019-05-07</time>
+                <span>By Brenda D.</span>
+                <button type="submit">More tweets</button>
+            </div>
+            <div class="col photo-stream">
+                <h5>Photo stream</h5>
+                <img src="images/1picture.jpg" alt="">
+                <img src="images/2picture.jpg" alt="">
+                <img src="images/3picture.jpg" alt="">
+                <img src="images/4picture.jpg" alt="">
+                <img src="images/5picture.jpg" alt="">
+                <img src="images/6picture.jpg" alt="">
+            </div>
+            <div class="col contact-us">
+                <h5>Contact us</h5>
+                <span>Address: </span><p class="address">Br.Bosalygo str. 138 Varcovichi 223611</p>
+                <div><span>Tel.: </span><a href="tel: +123456789">+123456789</a></div>
+                <div><span>Email: </span><a href="mailto:yesipovich92@gmail.com"> yesipovich92@gmail.com</a></div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="container-fluid under_footer">
+    <div class="menu under_footer__menu">
+        <a class="link" href="index.html" title="home page">Home</a>
+        <a class="link" href="about.html" title="about">About</a>
+        <a class="link" href="gallery.html" title="gallery">Gallery</a>
+        <a class="link active" href="blog.html" title="blog">Blog</a>
+        <a class="link" href="documents/table.pdf" target="_blank" title="timetable" onclick=question1()>Timetable</a>
+        <a class="link" href="contact.html" title="contact">Contact</a>
+    </div>
+    <span>&copy 2019 Kseniya Yesipovich</span>
+</div>
+<script src="JS/common_js.js"></script>
+<script src="JS/for_form_js.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+.main__container_headline .col h2,
+.main__container_content .column .col-sm h3,
+.main__container_content .column .col-sm span {
+    font-family: 'Acme', sans-serif;
+    color: dimgrey;
+    text-shadow: 2px 2px 3px lightgray;
+}
+.main__container_headline .row .col a {
+    color: dimgray;
+}
+.main__container_content .row.column {
+    flex-direction: column;
+}
+.main__container_content .column > .col-sm {
+    padding-bottom: 15px;
+}
+.main__container_content .column .col-sm span {
+    color: darkturquoise;
+    font-size: larger;
+}
+.main__container_content .column .col-sm img[src$=".jpg"],
+.main__container_content .column .col-sm video {
+    width: 100%;
+}
+.main__container_content .column .col-sm video {
+    height: auto;
+}
+figcaption {
+    text-align: center;
+    color: dimgray;
+}
+input.SReadMoreRadio,
+input.SReadMoreRadio + label + div,
+input.SReadMoreRadio:checked + label,
+input.SReadMoreRadio + label + div + input + label {
+    display: none;
+}
+input.SReadMoreRadio:checked + label + div {
+    display: flex;
+}
+input.SReadMoreRadio:checked + label + div + input + label {
+    display: inline-block;
+}
+/* opisanie vseh knopok na stranice */
+input.SReadMoreRadio + label,
+input.SReadMoreRadio:checked + label + div + input + label,
+input.button {
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: darkturquoise;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 2px 2px 5px gray;
+    padding: 5px;
+}
+form.share_picture {
+    padding-top: 10px;
+}
+.share_picture p {
+    margin-bottom: 0;
+    color: coral;
+    font-family: 'Acme', sans-serif;
+}
+input.button {
+    margin-top: 5px;
+    display: block;
+}
+.little_float_right {
+    padding-top: 15px;
+}
+.social-net {
+    padding-top: 5px;
+    text-align: center;
+}
+.social-net .net {
+    width: 40px;
+}
+@media (max-width: 767.98px) {
+    .main__container_headline img {
+        width: 80px;
+    }
+    iframe {
+        height: 287px;
+    }
+    hr {
+        margin: 0;
+    }
+}
+@media (max-width: 575.98px) {
+    .main__container_headline img {
+        width: 70px;
+    }
+}
+@media (max-width: 419px) {
+    .main__container_headline img {
+        width: 55px;
+    }
+    iframe {
+        height: 219px;
+    }
+}

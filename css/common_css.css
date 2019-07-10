@@ -1,0 +1,184 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Libre Baskerville', serif;
+}
+/* opisanie menu header */
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: transparent !important;
+    padding: 0;
+}
+.header__container .nav-link,
+.header__container .dropdown-item {
+    color: mintcream !important;
+}
+.header__container .active>.nav-link,
+.header__container .nav-link:hover,
+.header__container .dropdown-item:hover,
+.header__container .dropdown-item:active,
+.header__container .dropdown-item:focus {
+    background-color: mintcream;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    color: darkturquoise !important;
+}
+.header__container .nav-link {
+    display: inline-block;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+.header__container .dropdown-menu.show {
+    background-color: transparent;
+    border: 0;
+}
+.header__container .dropdown-item {
+    width: 95px;
+}
+/* gamburger menu headera*/
+.header__container .navbar-toggler {
+    border-color: whitesmoke !important;
+    border-width: 2px;
+}
+.main {
+    background-image: url('../images/5.png');
+    padding: 15px 0;
+}
+.main > div {
+    padding-bottom: 5px;
+}
+time {
+    color: darkgrey;
+    font-size: small;
+}
+/* eto tolstii <hr> */
+.bolder {
+    border-top-width: 3px;
+}
+.all-dotted {
+    border: dotted;
+    color: lightgrey;
+    box-shadow: 0 0 10px lightgrey;
+}
+.top-bottom-dotted {
+    box-shadow: 0 0 10px lightgray;
+    border-top: dotted lightgray;
+    border-bottom: dotted lightgray;
+}
+.orange {
+    color: coral;
+}
+.rotate:hover {
+    transition: transform 0.8s;
+    transform: rotate(360deg);
+}
+/* vse stili dla footer i under_footer */
+footer {
+    background-image: url("../images/f2.png");
+    padding: 15px 0;
+}
+.footer__container_content p {
+    color: grey;
+    font-size: small;
+}
+.footer__container_content h5 {
+    font-family: 'Acme', sans-serif;
+    color: dimgrey;
+    text-shadow: 2px 2px 3px lightgray;
+}
+.footer__container_content h6 {
+    font-family: 'Acme', sans-serif;
+    color: darkturquoise;
+    font-size: medium;
+    box-shadow: 0 0 10px lightgray;
+    border-top: dotted lightgray;
+    border-bottom: dotted lightgray;
+}
+.footer__container_content .address {
+    display: inline;
+}
+.footer__container_content span {
+    color: dimgray;
+    font-size: small;
+    font-weight: bold;
+}
+.footer__container_content .photo-stream img {
+    width: 100px;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+}
+.footer__container_content .blog-posts span {
+    font-size: smaller;
+    font-style: italic;
+    font-weight: bolder;
+}
+.footer__container_content button {
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: darkturquoise;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 2px 2px 5px gray;
+    padding: 5px;
+}
+.footer__container_content a {
+    font-family: 'Acme', sans-serif;
+    color: darkturquoise;
+}
+/* samii niznii blok pod podvalom i podpis'; opisanie niznego menu smotri sverhu v headere */
+.under_footer {
+    background-color: dimgrey;
+    padding: 5px;
+}
+.under_footer span {
+    font-family: monospace;
+    color: darkgray;
+    float: right;
+}
+.under_footer__menu .link {
+    padding: 5px 10px;
+    color: mintcream;
+}
+.under_footer .link:hover,
+.under_footer__menu .link.active {
+    background-color: mintcream;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    color: darkturquoise;
+}
+@media (max-width: 991.98px) {
+    .footer__container_content .row .photo-stream img:nth-of-type(4),
+    .footer__container_content .row .photo-stream img:nth-of-type(5),
+    .footer__container_content .row .photo-stream img:nth-of-type(6) {
+        display: none;
+    }
+}
+@media (max-width: 767.98px) {
+    .footer__container_content .row .blog-posts,
+    .footer__container_content .row .photo-stream {
+        display: none;
+    }
+    .under_footer__menu {
+        text-align: center;
+    }
+}
+@media (max-width: 575.98px) {
+    .header {
+        position: sticky;
+        left: 0;
+        top: 0;
+        z-index: 1;
+    }
+    .under_footer__menu {
+        display: none;
+    }
+}
+@media (max-width: 419px) {
+    .logo {
+        width: 200px;
+        vertical-align: unset;
+    }
+}

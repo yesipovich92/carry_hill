@@ -1,0 +1,76 @@
+header {
+     padding-top: 15px;
+     background-image: url("../images/header.png");
+ }
+.header__container {
+    position: relative;
+    min-height: 170px;
+}
+.airplane {
+    width: 100px;
+    position: absolute;
+    right: 14%;
+    bottom: 15%;
+}
+.star1 {
+    position: absolute;
+    width: 23px;
+    right: 25%;
+    bottom: 92%;
+}
+.star2 {
+    position: absolute;
+    width: 40px;
+    right: 42%;
+    bottom: 18%;
+    opacity: 0.8;
+}
+.star3 {
+    position: absolute;
+    width: 50px;
+    right: 4%;
+    bottom: 6%;
+    opacity: 0.8;
+}
+@media (max-width: 991.98px) {
+    .header {
+        padding-bottom: 15px;
+    }
+
+    .header__container {
+        min-height: unset;
+    }
+
+    .airplane {
+        right: 44%;
+        top: 2%;
+    }
+
+    .star1 {
+        right: 30%;
+        top: 0;
+    }
+
+    .star3 {
+        right: 15%;
+        bottom: 45%;
+    }
+}
+@media (max-width: 767.98px) {
+    .airplane {
+        right: 28%;
+    }
+    .star2 {
+        right: 24%;
+        bottom: 2%;
+    }
+}
+@media (max-width: 575.98px) {
+    .airplane,
+    .star1,
+    .star2,
+    .star3,
+    .under_footer__menu {
+        display: none;
+    }
+}

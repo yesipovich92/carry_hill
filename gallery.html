@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Libre+Baskerville" rel="stylesheet">
+    <link rel="stylesheet" href="css/gallery_css.css" media="all">
+    <link rel="stylesheet" href="css/common_css.css" media="all">
+    <link rel="stylesheet" href="css/little_header_css.css" media="all">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1
+    BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK1SURBVGhD7Zi9a1NRGMZPGmPT2v9AXYoufhSxKh10cGmHLuLg4qCLoEUEEUWaQP4Ji4rQQej
+    gR6sOuhRaCwpCwUUnFx0EEU2taeNHhr6e9/Le9PbmeW9ubNOe4Tzwg8u975P8bnNPSI/x8fHx8dnw/CqY3ctF87haNBULbTGV5YKZ/FM0e0UvOdWS2VU
+    tmDJ4oa3me3XU7BRNPfZuH4GyE1i3B6Kpxw4tobITFMxP0dQDiw4hmnpQySVEUw8qtZVSjmovR2il/DSgNnspOAdnLaKpB5XaSW3mItHfV2vgc2iWEU0
+    9qNROVsrPGm6APwk0y4imHlRKy7tz2QB0TcOZG/h2LUP3DuUD+BjNIJx5hJ6c3E639nUF8DGagfAitsL1Rczym72I357dVpcP4XNodr2Iph5USuLL1Qz
+    d7Vsrz/A5voY660E09aCShv3ZQQ+PdzbIh/A1nkHd/0U09aCSxpszjY9OHJ5B3U/ncwHoWhKiqQeVEJ+vdNDtA1g6Cs/wbLT79XKW5gZ6Avg4eq0Zoqk
+    HleJURg1NDOiPThye5Q53f1zP0OsTO2j2WE8AH/O5+HtoiKYeVIozdyoHRZPgzpK9ifnBrrp8CJ/ja+i94oimHlSK8nGkg8b2Y8kkuDM/nG+QD3l/uhO
+    +XxzR1INKIYs3Dd0/moeCzZjo64biUdIsatHUg0oh08OtPzrM+MFumgHCcdIsatHUg0rMhwtZKNeMO/ZbaPoIFkY0W9SiqQeVFm5kaLy/9UdnzPK8f/U
+    bJy1Ji1o09aDSi6HVH2qtMHW4dfkQbVGLph5UcgnR1INKLiGaelDJJURTDyq5hGjqQSWXEE09dsiFHWlMmq1F+w/IJCw7AG/5i6Ye3od3dHt94XfJ9Ip
+    mcngfnrey+SMDL7TZLPJf3srvET0fHx8fn42KMf8A6mV5swS7UgQAAAAASUVORK5CYII=">
+</head>
+<body>
+<header>
+    <div class="container header__container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="images/main_logo.png" alt="" title="home page"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" title="about">About</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdownMenuLink" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="gallery">
+                            Gallery
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#2019" title="2019">2019</a>
+                            <a class="dropdown-item" href="#2018" title="2018">2018</a>
+                            <a class="dropdown-item" href="#video" title="video">Video</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html" title="blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="documents/table.pdf" target="_blank" title="timetable" onclick=question1()>Timetable</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" title="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <img class="airplane rotate" src="images/paper-airplane.png" alt="">
+        <img class="star1 rotate" src="images/star1.png" alt="">
+        <img class="star2 rotate" src="images/star1.png" alt="">
+        <img class="star3 rotate" src="images/star2.png" alt="">
+    </div>
+</header>
+<div class="main">
+    <div class="container main__container_headline">
+        <div class="row">
+            <div class="col-2">
+                <img class="rotate" src="images/photo.png" alt="">
+            </div>
+            <div class="col">
+                <h2>Gallery</h2>
+                <hr class="bolder">
+                <a href="index.html" title="home page">Home</a>
+                <span>/</span>
+                <span class="orange">Gallery</span>
+            </div>
+        </div>
+    </div>
+    <div class="container main__container_content">
+        <div class="row column">
+            <div class="col-sm">
+                <h3 id="2019">Class 2019</h3>
+            </div>
+            <div class="col-sm">
+                <span class="top-bottom-dotted">Are you looking for a people who have a lot common with you?</span>
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col-md">
+                        <figure class="all-dotted">
+                            <img src="images/1gallery.jpg" alt="">
+                            <figcaption>School Bus</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md">
+                        <figure class="all-dotted">
+                            <img src="images/2gallery.jpg" alt="">
+                            <figcaption>Art lesson</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md">
+                        <figure class="all-dotted">
+                            <img src="images/3gallery.jpg" alt="">
+                            <figcaption>Funny book</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <input type=radio class='SReadMoreRadio' name=Continue1 id=First1 value=1>
+                <label for=First1>Show more</label>
+                <div class="row">
+                    <div class="col-md">
+                        <figure class="all-dotted">
+                            <img src="images/4gallery.jpg" alt="">
+                            <figcaption>The lesson in the yard</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md">
+                        <figure class="all-dotted">
+                            <img src="images/5gallery.jpg" alt="">
+                            <figcaption>Friend's help</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md">
+                        <figure class="all-dotted">
+                            <img src="images/6gallery.jpg" alt="">
+                            <figcaption>Additional lesson</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <input type=radio class='SReadMoreRadio' name=Continue1 id=Second1 value=2>
+                <label for=Second1>Hide</label>
+            </div>
+        </div>
+        <div class="row column">
+            <div class="col-sm">
+                <h3 id="2018">Class 2018</h3>
+            </div>
+            <div class="col-sm">
+                <span class="top-bottom-dotted">Are you looking for a people who have a lot common with you?</span>
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col-md">
+                        <figure class="all-dotted">
+                            <img src="images/4gallery.jpg" alt="">
+                            <figcaption>The lesson in the yard</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md">
+                        <figure class="all-dotted">
+                            <img src="images/5gallery.jpg" alt="">
+                            <figcaption>Friend's help</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md">
+                        <figure class="all-dotted">
+                            <img src="images/6gallery.jpg" alt="">
+                            <figcaption>Additional lesson</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <input type=radio class='SReadMoreRadio' name=Continue id=First value=1>
+                <label for=First>Show more</label>
+                <div class="row">
+                    <div class="col-md">
+                        <figure class="all-dotted">
+                            <img src="images/4gallery.jpg" alt="">
+                            <figcaption>The lesson in the yard</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md">
+                        <figure class="all-dotted">
+                            <img src="images/5gallery.jpg" alt="">
+                            <figcaption>Friend's help</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md">
+                        <figure class="all-dotted">
+                            <img src="images/6gallery.jpg" alt="">
+                            <figcaption>Additional lesson</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <input type=radio class='SReadMoreRadio' name=Continue id=Second value=2>
+                <label for=Second>Hide</label>
+            </div>
+        </div>
+        <div class="row column">
+            <div class="col-sm">
+                <h3 id="video">Video</h3>
+            </div>
+            <div class="col-sm">
+                <span class="top-bottom-dotted">Are you looking for a people who have a lot common with you?</span>
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col-md">
+                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/MlNNGeusB7M" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md">
+                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/2K9ToyTTfBg" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md">
+                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/yMUJKH1fFF0" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <form class="share_picture" method="post" enctype="multipart/form-data" action="http://fe.it-academy.by/TestForm.php">
+                                <p>You can share the picture (we will check it and then post)</p>
+                                <input type="file" name="userpicture" accept="image/*" multiple>
+                                <input class="button" type="submit" value="Send">
+                            </form>
+                        </div>
+                        <div class="col-md">
+                            <div class="little_float_right">
+                                <div class="row social-net">
+                                    <div class="col">
+                                        <a href="https://twitter.com/" target="_blank" title="twitter">
+                                            <img class="net rotate" src="images/Twitter%20round.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://facebook.com/" target="_blank" title="facebook">
+                                            <img class="net rotate" src="images/Facebook%20Round.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://google.com/" target="_blank" title="google">
+                                            <img class="net rotate" src="images/Google%20plus%20round%20new.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row social-net">
+                                    <div class="col">
+                                        <a href="https://instagram.com/" target="_blank" title="instagram">
+                                            <img class="net rotate" src="images/Instagram%20round%20social%20media%20icon%20free.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="https://youtube.com/" target="_blank" title="youtube">
+                                            <img class="net rotate" src="images/Youtube%20round.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container footer__container_content">
+        <div class="row">
+            <div class="col newsletter">
+                <h5>Newsletter</h5>
+                <p>You can subscribe on our news</p>
+                <form action="http://fe.it-academy.by/TestForm.php" method=get>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control form-control-sm" id="colFormLabelSm"
+                                   placeholder="your email">
+                        </div>
+                    </div>
+                    <button type="submit">Subscribe now</button>
+                </form>
+            </div>
+            <div class="col blog-posts">
+                <h5>Recent blog posts</h5>
+                <h6 class="top-bottom-dotted">Are you looking for people?</h6>
+                <p>
+                    As a values driven school, we encourage the children to reflect on their role in the local
+                    community and the wider world and to discover that together we make a difference.
+                </p>
+                <time datetime="2019-05-07">2019-05-07</time>
+                <span>By Brenda D.</span>
+                <button type="submit">More tweets</button>
+            </div>
+            <div class="col photo-stream">
+                <h5>Photo stream</h5>
+                <img src="images/1picture.jpg" alt="">
+                <img src="images/2picture.jpg" alt="">
+                <img src="images/3picture.jpg" alt="">
+                <img src="images/4picture.jpg" alt="">
+                <img src="images/5picture.jpg" alt="">
+                <img src="images/6picture.jpg" alt="">
+            </div>
+            <div class="col contact-us">
+                <h5>Contact us</h5>
+                <span>Address: </span><p class="address">Br.Bosalygo str. 138 Varcovichi 223611</p>
+                <div><span>Tel.: </span><a href="tel: +123456789">+123456789</a></div>
+                <div><span>Email: </span><a href="mailto:yesipovich92@gmail.com"> yesipovich92@gmail.com</a></div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="container-fluid under_footer">
+    <div class="menu under_footer__menu">
+        <a class="link" href="index.html" title="home page">Home</a>
+        <a class="link" href="about.html" title="about">About</a>
+        <a class="link active" href="gallery.html" title="gallery">Gallery</a>
+        <a class="link" href="blog.html" title="blog">Blog</a>
+        <a class="link" href="documents/table.pdf" target="_blank" title="timetable" onclick=question1()>Timetable</a>
+        <a class="link" href="contact.html" title="contact">Contact</a>
+    </div>
+    <span>&copy 2019 Kseniya Yesipovich</span>
+</div>
+<script src="JS/common_js.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

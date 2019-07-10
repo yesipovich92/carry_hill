@@ -1,0 +1,123 @@
+.main > div {
+    padding-bottom: 5px;
+}
+.main__container_headline .col h2,
+.main__container_content .row .main__article h3,
+.main__container_content .row .main__social h4,
+.main__container_content .row .main__social h3 {
+    font-family: 'Acme', sans-serif;
+    color: dimgrey;
+    text-shadow: 2px 2px 3px lightgray;
+}
+.main__container_headline .row .col a {
+    color: dimgray;
+}
+.main__container_content .main__article img {
+    width: inherit;
+    opacity: 0.8;
+}
+/* opisanie serogo bloka s kavichkami */
+.main__container_content .row .main__article .grey {
+    margin-right: 15px;
+    float: left;
+    width: 50%;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+}
+.main__container_content .row .main__article .grey img {
+    width: 50px;
+    opacity: 0.5;
+}
+.main__container_content .row .main__article .grey img:nth-of-type(1) {
+    float: left;
+}
+.main__container_content .row .main__article .grey img:nth-of-type(2) {
+    transform: rotate(-180deg);
+    float: right;
+}
+/*.main__container_content .row .main__social .tweets p,*/
+/*.main__container_content .row .main__social .tweets time {*/
+    /*padding-left: 50px;*/
+/*}*/
+div.timeline-Widget {
+    background-color: whitesmoke !important;
+}
+.main__container_content .main__social p {
+    color: grey;
+    font-size: smaller;
+}
+.main__container_content .main__social span {
+    color: dimgray;
+    font-size: smaller;
+    font-style: italic;
+    font-weight: bolder;
+}
+.main__container_content h6,
+.main__container_content .row .main__social .tweets p::first-line,
+.main__container_content .row .main__social .categories a {
+    color: darkturquoise;
+}
+.main__container_content .row .main__social .tweets img {
+    float: left;
+    opacity: 0.5;
+    width: 40px;
+}
+.main__container_content .row .main__social > div {
+    padding-bottom: 15px;
+}
+.main__container_content h6,
+.main__container_content .row .main__social .categories a {
+    font-family: 'Acme', sans-serif;
+}
+.main__container_content h6,
+.main__container_content .row .main__social .categories a {
+    font-size: larger;
+}
+.main__container_content .row .main__social .social-net {
+    padding-top: 5px;
+    text-align: center;
+}
+.main__container_content .row .main__social .net {
+    width: 40px;
+}
+/* opisanie vseh knopok na stranice */
+.main__container_content button,
+.main__social input {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: darkturquoise;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 2px 2px 5px gray;
+    padding: 5px;
+}
+@media (max-width: 991.98px) {
+    .col-8 {
+        flex: none;
+        max-width: 100%;
+    }
+}
+@media (max-width: 767.98px) {
+    .main__container_headline img {
+        width: 80px;
+    }
+    .main__container_content .main__article p {
+        text-align: justify;
+    }
+    hr {
+        margin: 0;
+    }
+}
+@media (max-width: 575.98px) {
+    .main__container_headline img {
+        width: 70px;
+    }
+}
+@media (max-width: 419px) {
+    .main__container_headline img {
+        width: 55px;
+    }
+}
