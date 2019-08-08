@@ -10,7 +10,7 @@ header {
 .header__container {
     position: relative;
 }
-/* opisanie kartinok headera*/
+/* description of images in the header */
 .header__container .boy {
     position: absolute;
     right: 0;
@@ -44,7 +44,7 @@ header {
     bottom: 25%;
     opacity: 0.8;
 }
-/* opisanie strok v headere*/
+/* description of strings in the header*/
 .header__container .tagline {
     color: dimgrey;
     padding-top: 30px;
@@ -70,7 +70,7 @@ header {
     font-size: small;
     box-shadow: 0 0 10px lightblue;
 }
-/* opisanie oranzevih kruglih kartinok */
+/* description of round images */
 .main__container_menu img {
     float: left;
     padding-right: 30px;
@@ -103,7 +103,7 @@ header {
     border-top: dotted lightgray;
     border-bottom: dotted lightgray;
 }
-/* opisanie raskrivaiuchegosa bloka */
+/* description of expanding div */
 input.SReadMoreRadio,
 input.SReadMoreRadio + label + div,
 input.SReadMoreRadio:checked + label,
@@ -117,7 +117,7 @@ input.SReadMoreRadio:checked + label + div,
 input.SReadMoreRadio:checked + label + div + input + label {
     display: inline-block;
 }
-/* opisanie vseh knopok na stranice */
+/* description of buttons */
 input.SReadMoreRadio + label,
 .main__container_last-events input,
 input.SReadMoreRadio:checked + label + div + input + label {
@@ -130,14 +130,14 @@ input.SReadMoreRadio:checked + label + div + input + label {
     box-shadow: 2px 2px 5px gray;
     padding: 5px;
 }
-/* opisanie kalendarja */
+/* description of the calendar */
 .main__container_content_calendar {
     padding-top: 15px;
 }
 .main__container_content_calendar iframe {
     border-width: 3px !important;
 }
-/* opisanie textovoi karuseli */
+/* description of text carousel */
 .main__container-fluid_carousel {
     min-height: 67px;
     margin: 10px 0;
@@ -184,7 +184,7 @@ input.SReadMoreRadio:checked + label + div + input + label {
 .main__container_last-events .tweets .twitter-timeline.twitter-timeline-rendered {
     height: 500px !important;
 }
-/* opisanie serogo bloka s kavichkami */
+/* gray div with quotes description */
 .main__container_last-events .people-say p {
     background-color: lightgray;
     padding: 5px;
@@ -215,7 +215,7 @@ input.SReadMoreRadio:checked + label + div + input + label {
     display: block;
     text-align: center;
 }
-/* opisanie logotipov socialnih setei */
+/* description of social nets logo */
 .main__container_last-events .people-say .social-net {
     padding-top: 5px;
     text-align: center;
@@ -305,11 +305,11 @@ input.SReadMoreRadio:checked + label + div + input + label {
     .main__container_content_calendar {
         display: none;
     }
-    /* chtobi colonki 'news' i 'people say' chli verticalno */
+    /* for vertical layout 'news' button and 'people say' buttons */
     .main__container_last-events .row .col {
         flex-basis: unset;
     }
-    /* chtobi logotipi socialnih setei lezali gorizontalno */
+    /* for vertical layout of social nets logo */
     .main__container_last-events .row .people-say .social-net .col {
         flex-basis: 0;
     }

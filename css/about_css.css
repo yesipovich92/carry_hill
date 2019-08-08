@@ -16,7 +16,7 @@
     width: inherit;
     opacity: 0.8;
 }
-/* opisanie serogo bloka s kavichkami */
+/* gray div with quotes description */
 .main__container_content .row .main__article .grey {
     margin-right: 15px;
     float: left;
@@ -81,7 +81,7 @@ div.timeline-Widget {
 .main__container_content .row .main__social .net {
     width: 40px;
 }
-/* opisanie vseh knopok na stranice */
+/* buttons description */
 .main__container_content button,
 .main__social input {
     display: block;

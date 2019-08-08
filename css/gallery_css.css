@@ -41,7 +41,7 @@ input.SReadMoreRadio:checked + label + div {
 input.SReadMoreRadio:checked + label + div + input + label {
     display: inline-block;
 }
-/* opisanie vseh knopok na stranice */
+/* button description */
 input.SReadMoreRadio + label,
 input.SReadMoreRadio:checked + label + div + input + label,
 input.button {
